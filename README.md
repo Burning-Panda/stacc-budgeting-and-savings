@@ -73,7 +73,7 @@ This is a project made in the timespan of the following
 |||
 |---|---|
 |start|2025-05-19 16:00|
-|end|2025-05-19 23:00|
+|end|2025-05-19 23:30|
 
 This includes all design, coding and ideation.
 

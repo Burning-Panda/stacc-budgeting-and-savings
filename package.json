@@ -2,7 +2,10 @@
   "name": "wizards-savings",
   "private": true,
   "type": "module",
+  "homepage": "https://burning-panda.github.io/stacc-budgeting-and-savings/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
@@ -11,11 +14,12 @@
   "dependencies": {
     "@react-router/node": "^7.5.3",
     "@react-router/serve": "^7.5.3",
+    "gh-pages": "^6.3.0",
     "isbot": "^5.1.27",
+    "lucide-react": "0.511.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router": "^7.5.3",
-    "lucide-react": "0.511.0",
     "zustand": "5.0.4"
   },
   "devDependencies": {
