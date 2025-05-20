@@ -13,13 +13,13 @@ export const Header = ({
 				<LucideSparkles data-theme="yellow" />
 				<h1 className="name">{title}</h1>
 			</div>
-			<div className="hidden md:flex items-center gap-6">
+			<div className="hidden">
 				<button
 					type="button"
-					className="relative p-2 rounded-full hover:bg-dark-100 transition-colors"
+					className=""
 				>
 					<LucideBell />
-					<span className="absolute top-0 right-0 w-4 h-4 bg-error-500 rounded-full text-[10px] text-white flex items-center justify-center">
+					<span className="">
 						{notifications}
 					</span>
 				</button>
